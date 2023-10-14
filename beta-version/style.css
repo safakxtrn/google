@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+table {
+  width: 90%;
+  margin: 10px auto 0;
+}
+
+.search-bar {
+  margin: 0 auto;
+  display: block;
+  width: 300px;
+}
+
+.mail-bar {
+  margin: 0 auto;
+  display: block;
+  width: 150px;
+}
+
+td:not(:first-child) {
+  font-size: 13px;
+}
+
+/* **************************************** Common Properties ***************************************** */
+
+.txt-center {
+  text-align: center;
+  display: block;
+}
+.dv-center {
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+}
+
+/* *************************************************************************************************** */
+
+/* **************************************** Background Colors ***************************************** */
+.bg-gray {
+  background-color: #eeeeee;
+}
+.bg-light {
+  background-color: #7ee5da;
+}
+.bg-avarage {
+  background-color: #70ccc2;
+}
+.bg-dark {
+  background-color: #62b3aa;
+}
+
+/* *************************************************************************************************** */
+
+/* **************************************** Specific Properties ***************************************** */
+
+.logo {
+  aspect-ratio: 351/113;
+  max-width: 351px;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+/* *************************************************************************************************** */
